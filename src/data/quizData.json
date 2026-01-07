@@ -1,0 +1,155 @@
+{
+  "horses": [
+    {
+      "id": "wild_stallion",
+      "name": "The Wild Stallion",
+      "description": "Free-spirited and adventurous, you gallop to your own beat! You're independent, passionate, and always seeking new horizons. Nothing can fence you in!",
+      "traits": ["adventurous", "independent", "passionate", "spontaneous"],
+      "image": "images/wild_stallion.jpg",
+      "color": "#D4AF37"
+    },
+    {
+      "id": "noble_mare",
+      "name": "The Noble Mare",
+      "description": "Graceful and dignified, you carry yourself with elegance. You're loyal, caring, and have a natural ability to lead with compassion.",
+      "traits": ["elegant", "loyal", "compassionate", "wise"],
+      "image": "images/noble_mare.jpg",
+      "color": "#8B4789"
+    },
+    {
+      "id": "racing_champion",
+      "name": "The Racing Champion",
+      "description": "Fast, competitive, and driven! You thrive on challenges and never back down. You're focused, determined, and always pushing for excellence.",
+      "traits": ["competitive", "driven", "focused", "energetic"],
+      "image": "images/racing_champion.jpg",
+      "color": "#E74C3C"
+    },
+    {
+      "id": "gentle_pony",
+      "name": "The Gentle Pony",
+      "description": "Kind-hearted and approachable, you bring joy wherever you go. You're friendly, optimistic, and have a gift for making others smile.",
+      "traits": ["friendly", "optimistic", "cheerful", "sociable"],
+      "image": "images/gentle_pony.jpg",
+      "color": "#F39C12"
+    },
+    {
+      "id": "mystical_unicorn",
+      "name": "The Mystical Unicorn",
+      "description": "Creative and magical, you see the world through a unique lens. You're imaginative, artistic, and bring wonder to everyday life.",
+      "traits": ["creative", "imaginative", "artistic", "dreamer"],
+      "image": "images/mystical_unicorn.jpg",
+      "color": "#9B59B6"
+    },
+    {
+      "id": "work_horse",
+      "name": "The Reliable Work Horse",
+      "description": "Steady, dependable, and strong. You're the rock everyone counts on. You're practical, dedicated, and find satisfaction in a job well done.",
+      "traits": ["reliable", "practical", "dedicated", "hardworking"],
+      "image": "images/work_horse.jpg",
+      "color": "#7D6348"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "It's New Year's Eve! How do you prefer to celebrate?",
+      "answers": [
+        {
+          "text": "At a wild party with loud music and dancing!",
+          "scores": {
+            "wild_stallion": 3,
+            "racing_champion": 2,
+            "gentle_pony": 1
+          }
+        },
+        {
+          "text": "An elegant dinner with close friends",
+          "scores": {
+            "noble_mare": 3,
+            "gentle_pony": 2
+          }
+        },
+        {
+          "text": "Competing in a midnight fun run or challenge",
+          "scores": {
+            "racing_champion": 3,
+            "work_horse": 1
+          }
+        },
+        {
+          "text": "Creating art or enjoying a creative activity",
+          "scores": {
+            "mystical_unicorn": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What's your ideal way to spend a free afternoon?",
+      "answers": [
+        {
+          "text": "Exploring somewhere new and spontaneous",
+          "scores": {
+            "wild_stallion": 3,
+            "racing_champion": 1
+          }
+        },
+        {
+          "text": "Reading a good book in a cozy spot",
+          "scores": {
+            "noble_mare": 2,
+            "mystical_unicorn": 2
+          }
+        },
+        {
+          "text": "Working on a productive project",
+          "scores": {
+            "work_horse": 3,
+            "racing_champion": 1
+          }
+        },
+        {
+          "text": "Hanging out with friends and having fun",
+          "scores": {
+            "gentle_pony": 3,
+            "wild_stallion": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which word best describes your approach to challenges?",
+      "answers": [
+        {
+          "text": "Fearless - I charge ahead!",
+          "scores": {
+            "wild_stallion": 3,
+            "racing_champion": 2
+          }
+        },
+        {
+          "text": "Strategic - I plan carefully",
+          "scores": {
+            "noble_mare": 3,
+            "work_horse": 2
+          }
+        },
+        {
+          "text": "Competitive - I must win!",
+          "scores": {
+            "racing_champion": 3
+          }
+        },
+        {
+          "text": "Creative - I find unique solutions",
+          "scores": {
+            "mystical_unicorn": 3,
+            "gentle_pony": 1
+          }
+        }
+      ]
+    }
+  ]
+}
