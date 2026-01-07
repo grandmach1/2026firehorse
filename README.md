@@ -59,10 +59,11 @@ Each horse has:
 Each question has:
 - `id` - Unique number
 - `question` - The question text
-- `answers` - Array of possible answers
+- `answers` - Array of possible answers (with images!)
 
 Each answer has:
-- `text` - Answer text shown to user
+- `text` - Answer caption/description
+- `image` - Path to the answer image
 - `scores` - Object mapping horse IDs to points (higher = better match)
 
 ```json
@@ -72,6 +73,7 @@ Each answer has:
   "answers": [
     {
       "text": "At a wild party!",
+      "image": "images/answers/party.jpg",
       "scores": {
         "wild_stallion": 3,
         "racing_champion": 2
@@ -90,11 +92,23 @@ Each answer has:
 
 ## 🖼️ Adding Images
 
+### Horse Result Images
 1. Create a folder: `public/images/`
-2. Add your horse images (JPG, PNG, etc.)
-3. Reference them in `quizData.json` as: `"image": "images/your_image.jpg"`
+2. Add your horse personality images (e.g., `wild_stallion.jpg`, `noble_mare.jpg`, etc.)
+3. The JSON already references them - just match the filenames!
 
-The images will be displayed in a circular frame on the results screen.
+### Answer Images
+1. Create a folder: `public/images/answers/`
+2. Add your answer choice images
+3. Reference them in the JSON as: `"image": "images/answers/party.jpg"`
+
+**Image guidelines:**
+- Recommended size: 600x400px or similar aspect ratio
+- Formats: JPG, PNG, WebP
+- Keep file sizes reasonable for web (under 500KB each)
+- Use descriptive filenames matching your JSON references
+
+The app displays placeholders (🖼️) when images aren't found, so you can test without images first!
 
 ## 🎨 Customizing Styles
 

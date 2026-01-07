@@ -51,7 +51,7 @@ function App() {
       <div className="container">
         {gameState === 'welcome' && (
           <div className="welcome-screen">
-            <h1 className="main-title">🐴 Welcome to 2026 🐴</h1>
+            <h1 className="main-title">Welcome to 2026</h1>
             <h2 className="subtitle">The Year of the Horse</h2>
             <p className="welcome-text">
               Discover your horse personality! Answer a few questions and find out which magnificent 
@@ -60,7 +60,6 @@ function App() {
             <button className="start-button" onClick={startQuiz}>
               Start the Quiz
             </button>
-            <div className="fireworks">✨ 🎆 ✨</div>
           </div>
         )}
 

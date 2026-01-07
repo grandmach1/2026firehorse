@@ -3,7 +3,7 @@ import React from 'react';
 function Results({ horse, onRestart }) {
   return (
     <div className="results-container">
-      <h1 className="results-title">Your Horse Spirit for 2026!</h1>
+      <h1 className="results-title">Your Horse Spirit for 2026</h1>
       
       <div className="horse-card" style={{ borderColor: horse.color }}>
         <div 
@@ -12,7 +12,6 @@ function Results({ horse, onRestart }) {
         >
           <div className="image-text">
             {/* Placeholder for horse image */}
-            🐴
             <p>Image: {horse.image}</p>
           </div>
         </div>
@@ -38,13 +37,11 @@ function Results({ horse, onRestart }) {
       </div>
 
       <div className="share-section">
-        <p className="share-text">Share your result and celebrate the Year of the Horse! 🎉</p>
+        <p className="share-text">Share your result and celebrate the Year of the Horse</p>
         <button className="restart-button" onClick={onRestart}>
           Take Quiz Again
         </button>
       </div>
-
-      <div className="fireworks">🎆 ✨ 🎊 ✨ 🎆</div>
     </div>
   );
 }

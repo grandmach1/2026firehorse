@@ -24,10 +24,23 @@ function Quiz({ question, questionNumber, totalQuestions, onAnswer }) {
         {question.answers.map((answer, index) => (
           <button
             key={index}
-            className="answer-button"
+            className="answer-button image-answer"
             onClick={() => handleAnswerClick(answer.scores)}
           >
-            {answer.text}
+            <div className="answer-image-container">
+              <img 
+                src={answer.image} 
+                alt={answer.text}
+                className="answer-image"
+                onError={(e) => {
+                  e.target.style.display = 'none';
+                  e.target.nextSibling.style.display = 'flex';
+                }}
+              />
+              <div className="image-placeholder">
+                <span className="placeholder-text">Image placeholder</span>
+              </div>
+            </div>
           </button>
         ))}
       </div>

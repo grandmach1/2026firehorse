@@ -56,6 +56,7 @@
       "answers": [
         {
           "text": "At a wild party with loud music and dancing!",
+          "image": "images/answers/party.jpg",
           "scores": {
             "wild_stallion": 3,
             "racing_champion": 2,
@@ -64,6 +65,7 @@
         },
         {
           "text": "An elegant dinner with close friends",
+          "image": "images/answers/elegant_dinner.jpg",
           "scores": {
             "noble_mare": 3,
             "gentle_pony": 2
@@ -71,6 +73,7 @@
         },
         {
           "text": "Competing in a midnight fun run or challenge",
+          "image": "images/answers/competition.jpg",
           "scores": {
             "racing_champion": 3,
             "work_horse": 1
@@ -78,6 +81,7 @@
         },
         {
           "text": "Creating art or enjoying a creative activity",
+          "image": "images/answers/creative.jpg",
           "scores": {
             "mystical_unicorn": 3
           }
@@ -90,6 +94,7 @@
       "answers": [
         {
           "text": "Exploring somewhere new and spontaneous",
+          "image": "images/answers/explore.jpg",
           "scores": {
             "wild_stallion": 3,
             "racing_champion": 1
@@ -97,6 +102,7 @@
         },
         {
           "text": "Reading a good book in a cozy spot",
+          "image": "images/answers/reading.jpg",
           "scores": {
             "noble_mare": 2,
             "mystical_unicorn": 2
@@ -104,6 +110,7 @@
         },
         {
           "text": "Working on a productive project",
+          "image": "images/answers/productive.jpg",
           "scores": {
             "work_horse": 3,
             "racing_champion": 1
@@ -111,6 +118,7 @@
         },
         {
           "text": "Hanging out with friends and having fun",
+          "image": "images/answers/friends.jpg",
           "scores": {
             "gentle_pony": 3,
             "wild_stallion": 1
@@ -124,6 +132,7 @@
       "answers": [
         {
           "text": "Fearless - I charge ahead!",
+          "image": "images/answers/fearless.jpg",
           "scores": {
             "wild_stallion": 3,
             "racing_champion": 2
@@ -131,6 +140,7 @@
         },
         {
           "text": "Strategic - I plan carefully",
+          "image": "images/answers/strategic.jpg",
           "scores": {
             "noble_mare": 3,
             "work_horse": 2
@@ -138,15 +148,89 @@
         },
         {
           "text": "Competitive - I must win!",
+          "image": "images/answers/competitive.jpg",
           "scores": {
             "racing_champion": 3
           }
         },
         {
           "text": "Creative - I find unique solutions",
+          "image": "images/answers/creative_solutions.jpg",
           "scores": {
             "mystical_unicorn": 3,
             "gentle_pony": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What's your dream vacation destination?",
+      "answers": [
+        {
+          "text": "Wild camping in untamed nature",
+          "image": "images/answers/camping.jpg",
+          "scores": {
+            "wild_stallion": 3,
+            "work_horse": 1
+          }
+        },
+        {
+          "text": "A luxurious spa retreat",
+          "image": "images/answers/spa.jpg",
+          "scores": {
+            "noble_mare": 3
+          }
+        },
+        {
+          "text": "An adrenaline-packed adventure destination",
+          "image": "images/answers/adventure.jpg",
+          "scores": {
+            "racing_champion": 3,
+            "wild_stallion": 1
+          }
+        },
+        {
+          "text": "A magical, fairy-tale location",
+          "image": "images/answers/fairytale.jpg",
+          "scores": {
+            "mystical_unicorn": 3,
+            "gentle_pony": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "How do your friends describe you?",
+      "answers": [
+        {
+          "text": "The unpredictable adventurer",
+          "image": "images/answers/adventurer.jpg",
+          "scores": {
+            "wild_stallion": 3
+          }
+        },
+        {
+          "text": "The wise and graceful one",
+          "image": "images/answers/wise.jpg",
+          "scores": {
+            "noble_mare": 3
+          }
+        },
+        {
+          "text": "The ambitious go-getter",
+          "image": "images/answers/ambitious.jpg",
+          "scores": {
+            "racing_champion": 3
+          }
+        },
+        {
+          "text": "The sunshine friend who lifts everyone's mood",
+          "image": "images/answers/sunshine.jpg",
+          "scores": {
+            "gentle_pony": 3,
+            "mystical_unicorn": 1
           }
         }
       ]
