@@ -63,7 +63,7 @@ function App() {
               />
               <div className="welcome-placeholder-text">Image placeholder</div>
             </div>
-            <h1 className="main-title">Bienvenue en 2026</h1>
+            <h1 className="main-title">2026 C'est l'année du Chveal de FEU</h1>
             <h2 className="subtitle">L'Année du Cheval</h2>
             <p className="welcome-text">
               Découvre ta personnalité de cheval ! Réponds à quelques questions et découvre quel 

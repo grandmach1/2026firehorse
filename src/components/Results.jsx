@@ -40,6 +40,9 @@ function Results({ horse, onRestart }) {
         <button className="restart-button" onClick={onRestart}>
           Refaire le Quiz
         </button>
+        <button className="restart-button" onClick={onRestart}>
+          Refaire le Quiz
+        </button>
       </div>
     </div>
   );
