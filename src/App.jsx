@@ -66,8 +66,7 @@ function App() {
             <h1 className="main-title">2026 C'est l'année du Cheval de FEU</h1>
             <h2 className="subtitle">Découvre ta personnalité de cheval !</h2>
             <p className="welcome-text">
-               Réponds à quelques questions et découvre quel 
-              magnifique esprit équin correspond à ton âme alors que nous galopons vers la nouvelle année.
+               Réponds à quelques questions et découvre quel magnifique esprit équin correspond à ton âme alors que nous galopons vers la nouvelle année.
             </p>
             <button className="start-button" onClick={startQuiz}>
               Commencer le Quiz
