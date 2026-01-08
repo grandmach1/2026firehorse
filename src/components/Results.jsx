@@ -3,7 +3,7 @@ import React from 'react';
 function Results({ horse, onRestart }) {
   return (
     <div className="results-container">
-      <h1 className="results-title">Ton Esprit Cheval pour 2026</h1>
+      <h1 className="results-title">✷ Ton Esprit de Cheval pour 2026 ✷</h1>
       
       <div className="horse-card">
         <div 
@@ -36,7 +36,7 @@ function Results({ horse, onRestart }) {
       </div>
 
       <div className="share-section">
-        <p className="share-text">Partage ton résultat et célèbre l'Année du Cheval</p>
+     <p className="share-text">Partage ton résultat et célèbre l'Année du Cheval</p> 
         <button className="restart-button" onClick={onRestart}>
           Refaire le Quiz
         </button>
