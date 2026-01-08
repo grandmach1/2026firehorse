@@ -165,10 +165,10 @@
     },
     {
       "id": 4,
-      "question": "Quelle est ta destination de vacances de rêve ?",
+      "question": "Ton pelage est plutot ...",
       "answers": [
         {
-          "text": "Camping sauvage en pleine nature",
+          "text": "doux",
           "image": "images/answers/camping.jpg",
           "scores": {
             "wild_stallion": 3,
@@ -176,7 +176,7 @@
           }
         },
         {
-          "text": "Un spa luxueux et relaxant",
+          "text": "soyeux",
           "image": "images/answers/spa.jpg",
           "scores": {
             "noble_mare": 3
